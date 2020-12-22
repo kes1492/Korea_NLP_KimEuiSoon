@@ -1,8 +1,13 @@
-# Korea_NLP_KimEuiSoon #
+# 한글/영어 감성분석 모델 실습 #
 
-네이버 리뷰 데이터를 활용한 한글 데이터 감정 분석
-Overview
-네이버 영화 리뷰데이터(Naver Sentiment Movie Corpus,NSMC)를 활용해서 감정분석 문제를 해결합니다.
+## 네이버 리뷰 데이터(NSMC)를 활용한 한글 데이터 감정 분석 ##
+
+
+### 적용모델 ###
+1. LSTM
+2. Transformer 
+3. BERT
+
 
 아래와 같은 순서로 진행했습니다.
 
