@@ -1,4 +1,4 @@
-# Korea_NLP_KimEuiSoon
+# Korea_NLP_KimEuiSoon #
 
 네이버 리뷰 데이터를 활용한 한글 데이터 감정 분석
 Overview
