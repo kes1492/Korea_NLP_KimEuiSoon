@@ -11,6 +11,18 @@
 #### 영어 ####
 1. BERT
 
-## 테스트 프로그램 설명 ##
+### 검증 프로그램  ###
+
+1. 한글
+한글감성분석_전처리 (LSTM)
+한글감성분석 (Transformer)
+한글감성분석_형태소 (Transformer)
+한글감성분석_형태소2 (Transformer)
+한글감성분석 (BERT - KoBert  Pytorch)
+한글감성분석 (BERT - Hugging Face Pytorch)
+
+2. 영어
+영어감성분석_Friends_BERT
+
 
 
