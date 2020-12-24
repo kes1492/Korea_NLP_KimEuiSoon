@@ -1,51 +1,14 @@
 # 한글/영어 감성분석 모델 성능 최적화 및 비교 #
 
 ## 한글 : 네이버 리뷰 데이터(NSMC)를 활용한 한글 데이터 감정 분석 ##
-
+## 영어 : Friends 데이터셋 ##
 
 ### 적용모델 ###
+## 한글 ##
 1. LSTM
 2. Transformer 
 3. BERT
+## 영어 ##
+1. BERT
 
-#### 1. LSTM ####
-아래와 같은 순서로 진행했습니다.
-
-데이터 전처리
-CNN을 사용한 Classification
-Data
-데이터는 해당 github에서 받으실 수 있습니다. 데이터는 다음과 같습니다.
-
-rating_train.txt: 학습 데이터 총 15만개
-rating_test.txt: 테스트 데이터 총 5만개
-class는 긍정, 부정을 2개이며 각각 분포는 정확히 50:50으로 분포되어 있습니다.
-
-Package
-필요한 패키지는 다음과 같습니.
-
-Konlpy
-Tensorflow
-Pandas
-Numpy
-Re
-Preprocessing
-word2vec 혹은 GloVe 등을 사용해 임베딩은 하지않고, 데이터 전처리와 tensorflow.python.keras.prerprocessing 모듈을 이용해 index로 벡터화만 진행했습니다.
-
-전처리 과정에서 전체 데이터인 ratings.txt를 사용해서 Tokenizer에 fit했고 해당 객체를 이용해서 ratings_train.txt와 ratings_test.txt를 각각 index sequence 넘파이 배열로 만들었습ㄴ다.
-
-Training
-모델은 간단한 CNN 모델을 사용했습니다. input값을 random하게 embedding 해준뒤 tensorflow의 conv1d를 사용했고 임베딩과 convolution에 모두 dropout을 0.2의 확률로 주었습니다.
-
-코드는 tf.data와 tf.estimator를 사용해서 작성되었습니다.
-
-Result
-모델에는 10에폭으로 학습한다고 나와있는데, 전체 학습하지는 않고 60k step까지만 학습 후 evaluation 과 test를 진행했습니다. loss
-
-evaluation 결과는 다음과 같습니다.
-
-acc = 0.8341333, global_step = 60700, loss = 0.45636088
-test 데이터 결과는 다음과 같습니다.
-
-accuracy = 83.5168 %
-
-(다시 학습한 후 결과 update 예정)
+## ddd ##
