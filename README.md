@@ -15,22 +15,22 @@
 
 1. 한글
 
-   한글감성분석_전처리 (LSTM)
+   한글감성분석_전처리 (LSTM).ipynb
    
-   한글감성분석 (Transformer)
+   한글감성분석 (Transformer).ipynb
 
-   한글감성분석_형태소 (Transformer)
+   한글감성분석_형태소 (Transformer).ipynb
 
-   한글감성분석_형태소2 (Transformer)
+   한글감성분석_형태소2 (Transformer).ipynb
 
-   한글감성분석 (BERT - KoBert  Pytorch)
+   한글감성분석 (BERT - KoBert  Pytorch).ipynb
 
-   한글감성분석 (BERT - Hugging Face Pytorch)
+   한글감성분석 (BERT - Hugging Face Pytorch).ipynb
 
 
 2. 영어
 
-   영어감성분석_Friends_BERT
+   영어감성분석_Friends_BERT.ipynb
 
 
 
